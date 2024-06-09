@@ -53,13 +53,11 @@ public class Profile {
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Profile{");
-        sb.append("name='").append(name).append('\'');
-        sb.append(", age=").append(age);
-        sb.append(", email='").append(email).append('\'');
-        sb.append(", phone=").append(phone);
-        sb.append('}');
-        return sb.toString();
+        return "Profile{" + "name='" + name + '\'' +
+                ", age=" + age +
+                ", email='" + email + '\'' +
+                ", phone=" + phone +
+                '}';
     }
 
     @Override
